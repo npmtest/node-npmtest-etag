@@ -1,6 +1,6 @@
 # npmtest-etag
 
-#### test coverage for  [etag (v1.8.0)](https://github.com/jshttp/etag#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-etag.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-etag) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-etag.svg)](https://travis-ci.org/npmtest/node-npmtest-etag)
+#### basic test coverage for  [etag (v1.8.0)](https://github.com/jshttp/etag#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-etag.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-etag) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-etag.svg)](https://travis-ci.org/npmtest/node-npmtest-etag)
 
 #### Create simple HTTP ETags
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-etag/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-etag/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-etag/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-etag/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-etag/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-etag/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-etag/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-etag/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-etag/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-etag/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-etag/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-etag/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
